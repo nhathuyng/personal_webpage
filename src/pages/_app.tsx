@@ -7,6 +7,7 @@ import type { AppProps } from 'next/app';
 import Navigation from '../components/Navigation/Navigation';
 import Footer from '../components/Footer/Footer';
 import SplashLoader from '../components/SplashLoader/SplashLoader';
+import PreloadImages from '../components/PreloadImages/PreloadImages';
 
 function MyApp({ Component, pageProps }: AppProps) {
 	useEffect(() => {
@@ -24,6 +25,7 @@ function MyApp({ Component, pageProps }: AppProps) {
 					<Component {...pageProps} />
 					<Footer />
 				</SplashLoader>
+				<PreloadImages />
 			</ThemeProvider>
 		</>
 	);
