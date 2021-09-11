@@ -7,7 +7,7 @@ export default function Index() {
 	return (
 		<div>
 			<Head>
-				<title>Nhat Huy Nguyen</title>
+				<title>Nhat Huy Nguyen - WebDev</title>
 				<link rel='icon' href='/favicon.ico' />
 			</Head>
 			<main>
