@@ -14,6 +14,9 @@
 
 # production
 /build
+/src/components/Testomonies
+/src/components/Testomony
+
 
 # misc
 .DS_Store
