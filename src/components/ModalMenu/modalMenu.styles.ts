@@ -23,6 +23,7 @@ export default makeStyles((theme) => ({
 			},
 		},
 		[theme.breakpoints.down('xs')]: {
+			paddingTop: '100px',
 			'& .MuiTypography-root': {
 				fontSize: '3.25rem',
 			},
