@@ -46,7 +46,7 @@ export default makeStyles((theme) => ({
 		cursor: 'pointer',
 		top: '0',
 		[theme.breakpoints.down('xs')]: {
-			marginTop: '18vh',
+			marginTop: '15vh',
 		},
 	},
 	primaryButton: {
