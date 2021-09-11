@@ -1,0 +1,35 @@
+@font-face {
+	font-family: 'STLight';
+	font-style: light;
+	font-weight: 300;
+	src: local(''), url('../fonts/StelvioGrotesk-Light.woff') format('woff');
+}
+@font-face {
+	font-family: 'STMedium';
+	font-style: medium;
+	font-weight: 500;
+	src: local(''), url('../fonts/StelvioGrotesk-medium.woff') format('woff');
+}
+@font-face {
+	font-family: 'STXBold';
+	font-style: light;
+	font-weight: 800;
+	src: local(''), url('../fonts/StelvioGrotesk-Extra_Bold.woff') format('woff');
+}
+
+body {
+	height: 100vh;
+	background-color: rgb(20, 27, 34);
+}
+
+* {
+	font-family: 'STLight';
+	color: #616161;
+}
+
+a {
+	text-decoration: none;
+}
+
+.marquee-container {
+}
