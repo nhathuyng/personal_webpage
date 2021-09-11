@@ -15,7 +15,7 @@ const PreloadImages: React.FC<PreloadImagesProps> = ({}) => {
 			<img width='0' src='/graphql_color.svg' alt='' />
 			<img width='0' src='/gitlab_color.svg' alt='' />
 			<img width='0' src='/mui_color.svg' alt='' />
-			<img width='0' src='/nextgit_color.svg' alt='' />
+			<img width='0' src='/next_color.svg' alt='' />
 			<img width='0' src='/ts_color.svg' alt='' />
 			<img width='0' src='/me_color.png' alt='' />
 		</div>
