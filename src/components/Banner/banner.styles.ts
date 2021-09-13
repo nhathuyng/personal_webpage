@@ -8,6 +8,11 @@ export default makeStyles((theme) => ({
 		marginTop: '20px',
 		paddingLeft: '90px',
 		minHeight: '8vh',
+		[theme.breakpoints.up('xl')]: {
+			'& .MuiTypography-root': {
+				fontSize: '6rem',
+			},
+		},
 		[theme.breakpoints.down('xs')]: {
 			minHeight: '6vh',
 		},

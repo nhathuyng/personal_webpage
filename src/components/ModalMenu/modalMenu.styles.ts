@@ -16,7 +16,11 @@ export default makeStyles((theme) => ({
 		'& .MuiTypography-root': {
 			fontSize: '5.5rem',
 		},
-
+		[theme.breakpoints.up('xl')]: {
+			'& .MuiTypography-root': {
+				fontSize: '8rem',
+			},
+		},
 		[theme.breakpoints.down('sm')]: {
 			'& .MuiTypography-root': {
 				fontSize: '4rem',
@@ -58,6 +62,10 @@ export default makeStyles((theme) => ({
 		background: 'none',
 		cursor: 'pointer',
 		fontSize: '3rem',
+		[theme.breakpoints.up('xl')]: {
+			fontSize: '5rem',
+			padding: '40px',
+		},
 		[theme.breakpoints.down('sm')]: {
 			fontSize: '2.5rem',
 			marginTop: '100px',
@@ -68,6 +76,7 @@ export default makeStyles((theme) => ({
 		},
 	},
 	title: {
+		fontFamily: 'STMedium',
 		marginTop: '12px',
 	},
 }));

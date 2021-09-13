@@ -22,6 +22,10 @@ export default makeStyles((theme) => ({
 		},
 		backgroundRepeat: 'no-repeat',
 		backgroundSize: 'contain',
+		[theme.breakpoints.up('xl')]: {
+			width: '100px',
+			height: '100px',
+		},
 		[theme.breakpoints.down('sm')]: {
 			width: '45px',
 			height: '45px',
@@ -38,6 +42,10 @@ export default makeStyles((theme) => ({
 		},
 		backgroundRepeat: 'no-repeat',
 		backgroundSize: 'contain',
+		[theme.breakpoints.up('xl')]: {
+			width: '100px',
+			height: '100px',
+		},
 		[theme.breakpoints.down('sm')]: {
 			width: '45px',
 			height: '45px',
@@ -54,6 +62,10 @@ export default makeStyles((theme) => ({
 		},
 		backgroundRepeat: 'no-repeat',
 		backgroundSize: 'contain',
+		[theme.breakpoints.up('xl')]: {
+			width: '100px',
+			height: '100px',
+		},
 		[theme.breakpoints.down('sm')]: {
 			width: '45px',
 			height: '45px',
@@ -70,6 +82,10 @@ export default makeStyles((theme) => ({
 		},
 		backgroundRepeat: 'no-repeat',
 		backgroundSize: 'contain',
+		[theme.breakpoints.up('xl')]: {
+			width: '100px',
+			height: '100px',
+		},
 		[theme.breakpoints.down('sm')]: {
 			width: '45px',
 			height: '45px',
@@ -86,6 +102,10 @@ export default makeStyles((theme) => ({
 		},
 		backgroundRepeat: 'no-repeat',
 		backgroundSize: 'contain',
+		[theme.breakpoints.up('xl')]: {
+			width: '100px',
+			height: '100px',
+		},
 		[theme.breakpoints.down('sm')]: {
 			width: '45px',
 			height: '45px',
@@ -102,6 +122,10 @@ export default makeStyles((theme) => ({
 		},
 		backgroundRepeat: 'no-repeat',
 		backgroundSize: 'contain',
+		[theme.breakpoints.up('xl')]: {
+			width: '100px',
+			height: '100px',
+		},
 		[theme.breakpoints.down('sm')]: {
 			width: '45px',
 			height: '45px',
@@ -118,6 +142,10 @@ export default makeStyles((theme) => ({
 		},
 		backgroundRepeat: 'no-repeat',
 		backgroundSize: 'contain',
+		[theme.breakpoints.up('xl')]: {
+			width: '100px',
+			height: '100px',
+		},
 		[theme.breakpoints.down('sm')]: {
 			width: '45px',
 			height: '45px',
@@ -134,6 +162,10 @@ export default makeStyles((theme) => ({
 		},
 		backgroundRepeat: 'no-repeat',
 		backgroundSize: 'contain',
+		[theme.breakpoints.up('xl')]: {
+			width: '100px',
+			height: '100px',
+		},
 		[theme.breakpoints.down('sm')]: {
 			width: '45px',
 			height: '45px',
@@ -150,6 +182,10 @@ export default makeStyles((theme) => ({
 		},
 		backgroundRepeat: 'no-repeat',
 		backgroundSize: 'contain',
+		[theme.breakpoints.up('xl')]: {
+			width: '100px',
+			height: '100px',
+		},
 		[theme.breakpoints.down('sm')]: {
 			width: '45px',
 			height: '45px',

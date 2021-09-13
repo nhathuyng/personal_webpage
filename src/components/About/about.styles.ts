@@ -22,7 +22,8 @@ export default makeStyles((theme) => ({
 
 		[theme.breakpoints.up('xl')]: {
 			'& .MuiTypography-root': {
-				fontSize: '6rem',
+				fontSize: '2.5rem',
+				lineHeight: '60px',
 			},
 		},
 
