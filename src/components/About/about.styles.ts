@@ -13,7 +13,7 @@ export default makeStyles((theme) => ({
 		display: 'flex',
 		justifyContent: 'center',
 		alignItems: 'center',
-		fontFamily: 'STLight',
+		fontFamily: 'STMedium',
 		paddingLeft: '120px',
 		paddingRight: '120px',
 		'& .MuiTypography-root': {
