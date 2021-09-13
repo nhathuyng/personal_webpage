@@ -13,8 +13,8 @@ const Banner: React.FC<BannerProps> = ({}) => {
 		<Marquee gradient={false} speed={40} pauseOnHover={true}>
 			<div className={classes.bannerTitle}>
 				<Typography variant='h1' color='initial'>
-					currently<span className={classes.bannerDot}>: </span>
 					<span className={classes.jobTitle}>
+						currently<span className={classes.bannerDot}>: </span>
 						junior<span className={classes.bannerDot}>.</span>webdeveloper
 					</span>
 				</Typography>

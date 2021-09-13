@@ -19,6 +19,13 @@ export default makeStyles((theme) => ({
 		'& .MuiTypography-root': {
 			lineHeight: '40px',
 		},
+
+		[theme.breakpoints.up('xl')]: {
+			'& .MuiTypography-root': {
+				fontSize: '6rem',
+			},
+		},
+
 		[theme.breakpoints.down('md')]: {
 			paddingLeft: '40px',
 			paddingRight: '40px',
