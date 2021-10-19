@@ -11,7 +11,7 @@ const About: React.FC<AboutProps> = ({}) => {
 		<div className={classes.aboutWrapper}>
 			<div className={classes.aboutMe}>
 				<Typography variant='h5' color='initial'>
-					Hey I am Huy - glad you’re here. I am currently working as a Junior Web Developer @ an agency based in Bonn. Doing frontend stuff is what i feel most
+					Hey I am Huy - glad you’re here. I am currently working as a Junior Web Developer @ an agency based in Bonn. Doing frontend stuff is what I feel most
 					comfortable with. I'm always on the lookout for new opportunities. If you have something to discuss - contact me on{' '}
 					<a style={{ textDecoration: 'underline' }} href='https://www.linkedin.com/in/nhat-huy-nguyen-410706170' target='_blank'>
 						LinkedIn
