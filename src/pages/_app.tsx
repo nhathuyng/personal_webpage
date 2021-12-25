@@ -20,11 +20,11 @@ function MyApp({ Component, pageProps }: AppProps) {
 		<>
 			<ThemeProvider theme={responsiveFontSizes(theme)}>
 				<CssBaseline />
-				<SplashLoader>
-					<Navigation />
-					<Component {...pageProps} />
-					<Footer />
-				</SplashLoader>
+				{/* <SplashLoader> */}
+				<Navigation />
+				<Component {...pageProps} />
+				{/* <Footer />
+				</SplashLoader> */}
 				<PreloadImages />
 			</ThemeProvider>
 		</>
