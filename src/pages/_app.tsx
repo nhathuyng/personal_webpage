@@ -21,7 +21,7 @@ function MyApp({ Component, pageProps }: AppProps) {
 			<ThemeProvider theme={responsiveFontSizes(theme)}>
 				<CssBaseline />
 				{/* <SplashLoader> */}
-				<Navigation />
+				{/* <Navigation /> */}
 				<Component {...pageProps} />
 				{/* <Footer />
 				</SplashLoader> */}
