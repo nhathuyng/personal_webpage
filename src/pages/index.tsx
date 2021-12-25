@@ -6,7 +6,7 @@ import TechStack from '../components/TechStack/TechStack';
 export default function Index() {
 	return (
 		<div>
-			<Head>
+			{/* <Head>
 				<title>Nhat Huy Nguyen - WebDev</title>
 				<link rel='icon' href='/favicon.ico' />
 			</Head>
@@ -14,7 +14,8 @@ export default function Index() {
 				<Banner />
 				<About />
 				<TechStack />
-			</main>
+			</main> */}
+			Webpage is under construction
 		</div>
 	);
 }
